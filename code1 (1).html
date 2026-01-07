@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Service</title>
+     <style>
+        body {
+            margin: 0;
+            /* use your local image (same folder as index.html) */
+            background: url("20008.jpg") center center / cover no-repeat fixed;
+        }
+    </style>
+    <link rel="stylesheet" href="code1.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+    
+    <div class="logo">CAR RENTAL </div>
+    <nav class="nav-links" id="navLinks">
+        <a href="#">Home</a>
+        <a href="#cars">Cars</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <button class="login-btn">Login</button>
+    </nav>
+
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</header>
+
+<!-- ===== HERO SECTION ===== -->
+<section class="hero">
+    <h1>Rent Your Dream Car Today</h1>
+    <p>Premium Car Rental & Auto Service Solutions</p>
+    <button class="primary-btn">Book Now</button>
+</section>
+
+<!-- ===== CARS SECTION ===== -->
+<section id="cars" class="section">
+    <h2>Popular Cars</h2>
+
+    <div class="cars-container">
+        <div class="car-card">
+            <img src="20009.jpg" alt="Car">
+            <h3>BMW Series 5</h3>
+            <p>₹15000 / day</p>
+            <button class="book-btn">Rent Now</button>
+        </div>
+
+        <div class="car-card">
+            <img src="20003.jpg" alt="Car">
+            <h3>koenigsegg</h3>
+            <p>₹40000 / day</p>
+            <button class="book-btn">Rent Now</button>
+        </div>
+
+        <div class="car-card">
+            <img src="20002.jpg" alt="Car">
+            <h3>pagani huayra</h3>
+            <p>₹50000 / day</p>
+            <button class="book-btn">Rent Now</button>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SERVICES SECTION ===== -->
+<section id="services" class="section services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+        <div class="service-card">
+            <h3>Daily & Monthly Rentals</h3>
+            <p>Flexible rental plans designed for all travel needs.</p>
+        </div>
+        <div class="service-card">
+            <h3>Car Maintenance</h3>
+            <p>Periodic servicing and full inspection facilities.</p>
+        </div>
+        <div class="service-card">
+            <h3>Airport Pickup</h3>
+            <p>Fast and reliable pick/drop rental facility.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer id="contact" class="footer">
+    <p>© 2025 Car Rental & Auto Service. All rights reserved.</p>
+</footer>
+
+<script src="code1.js"></script>
+</body>
+</html>
